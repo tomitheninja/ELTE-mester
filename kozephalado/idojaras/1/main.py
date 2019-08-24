@@ -1,12 +1,12 @@
-
-num_cities, num_measurements = map(int, raw_input().split(" "))
+# /usr/bin/env python3
+num_cities, num_measurements = list(map(int, input().split(" ")))
 
 INFINITY = 999
 
 results = []
 
 for i in range(0, num_cities):
-  xs = map(int, raw_input().split())
+  xs = list(map(int, input().split(" ")))
 
   sum_of_city = 0
   min_of_city = +INFINITY

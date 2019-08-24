@@ -1,3 +1,5 @@
+# /usr/bin/env python3
+
 s = "  <ALMA>  <BARACK> CSERESZNYE </BARACK> <MEGGY> DINNYE </MEGGY> </ALMA>*"
 
 get_next_char_i = -1
