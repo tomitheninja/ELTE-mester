@@ -27,5 +27,5 @@ for i in range(0, num_cities):
     results.append(str(i + 1))
 
 result1 = str(len(results)) # number of results
-result2 = " ".join(results) # the resulst joined by space
+result2 = " ".join(results) # the results joined by space
 print(result1 + " " + result2)
